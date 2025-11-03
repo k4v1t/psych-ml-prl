@@ -1,0 +1,415 @@
+.
+├── afniscript.sh -> .git/annex/objects/20/k4/MD5E-s1075--8ab5d0f62c9f45d6eff0e4732ab9dc80.sh/MD5E-s1075--8ab5d0f62c9f45d6eff0e4732ab9dc80.sh
+├── CHANGES
+├── dataset_description.json
+├── days_diff.csv -> .git/annex/objects/Q0/9Z/MD5E-s729--90e2ed1eb8e6474659ddad6825772813.csv/MD5E-s729--90e2ed1eb8e6474659ddad6825772813.csv
+├── demographics.csv -> .git/annex/objects/47/8K/MD5E-s171406--4f78703f16a4a06a355e9e940406d533.csv/MD5E-s171406--4f78703f16a4a06a355e9e940406d533.csv
+├── derivatives
+│   ├── ANT-eprime-export.zip -> ../.git/annex/objects/x9/qk/MD5E-s6593786--b2105a6e6d9d5f2347b6aeed4210de99.zip/MD5E-s6593786--b2105a6e6d9d5f2347b6aeed4210de99.zip
+│   ├── sub-RC4101
+│   │   ├── ses-1
+│   │   └── ses-2
+│   ├── sub-RC4103
+│   │   ├── ses-1
+│   │   └── ses-2
+│   ├── sub-RC4106
+│   │   ├── ses-1
+│   │   └── ses-2
+│   ├── sub-RC4107
+│   │   ├── ses-1
+│   │   └── ses-2
+│   ├── sub-RC4109
+│   │   ├── ses-1
+│   │   └── ses-2
+│   ├── sub-RC4110
+│   │   ├── ses-1
+│   │   └── ses-2
+│   ├── sub-RC4111
+│   │   ├── ses-1
+│   │   └── ses-2
+│   ├── sub-RC4112
+│   │   ├── ses-1
+│   │   └── ses-2
+│   ├── sub-RC4113
+│   │   ├── ses-1
+│   │   └── ses-2
+│   ├── sub-RC4114
+│   │   ├── ses-1
+│   │   └── ses-2
+│   ├── sub-RC4115
+│   │   ├── ses-1
+│   │   └── ses-2
+│   ├── sub-RC4116
+│   │   ├── ses-1
+│   │   └── ses-2
+│   ├── sub-RC4117
+│   │   ├── ses-1
+│   │   └── ses-2
+│   ├── sub-RC4118
+│   │   ├── ses-1
+│   │   └── ses-2
+│   ├── sub-RC4119
+│   │   ├── ses-1
+│   │   └── ses-2
+│   ├── sub-RC4120
+│   │   ├── ses-1
+│   │   └── ses-2
+│   ├── sub-RC4121
+│   │   ├── ses-1
+│   │   └── ses-2
+│   ├── sub-RC4122
+│   │   ├── ses-1
+│   │   └── ses-2
+│   ├── sub-RC4123
+│   │   ├── ses-1
+│   │   └── ses-2
+│   ├── sub-RC4125
+│   │   ├── ses-1
+│   │   └── ses-2
+│   ├── sub-RC4126
+│   │   ├── ses-1
+│   │   └── ses-2
+│   ├── sub-RC4128
+│   │   ├── ses-1
+│   │   └── ses-2
+│   ├── sub-RC4129
+│   │   ├── ses-1
+│   │   └── ses-2
+│   ├── sub-RC4130
+│   │   ├── ses-1
+│   │   └── ses-2
+│   ├── sub-RC4131
+│   │   ├── ses-1
+│   │   └── ses-2
+│   ├── sub-RC4201
+│   │   ├── ses-1
+│   │   └── ses-2
+│   ├── sub-RC4204
+│   │   ├── ses-1
+│   │   └── ses-2
+│   ├── sub-RC4205
+│   │   ├── ses-1
+│   │   └── ses-2
+│   ├── sub-RC4206
+│   │   ├── ses-1
+│   │   └── ses-2
+│   ├── sub-RC4207
+│   │   ├── ses-1
+│   │   └── ses-2
+│   ├── sub-RC4208
+│   │   ├── ses-1
+│   │   └── ses-2
+│   ├── sub-RC4210
+│   │   ├── ses-1
+│   │   └── ses-2
+│   ├── sub-RC4211
+│   │   ├── ses-1
+│   │   └── ses-2
+│   ├── sub-RC4212
+│   │   ├── ses-1
+│   │   └── ses-2
+│   ├── sub-RC4213
+│   │   ├── ses-1
+│   │   └── ses-2
+│   ├── sub-RC4214
+│   │   ├── ses-1
+│   │   └── ses-2
+│   ├── sub-RC4215
+│   │   ├── ses-1
+│   │   └── ses-2
+│   ├── sub-RC4217
+│   │   ├── ses-1
+│   │   └── ses-2
+│   ├── sub-RC4218
+│   │   ├── ses-1
+│   │   └── ses-2
+│   ├── sub-RC4219
+│   │   ├── ses-1
+│   │   └── ses-2
+│   ├── sub-RC4220
+│   │   ├── ses-1
+│   │   └── ses-2
+│   ├── sub-RC4221
+│   │   ├── ses-1
+│   │   └── ses-2
+│   ├── sub-RC4224
+│   │   ├── ses-1
+│   │   └── ses-2
+│   ├── sub-RC4225
+│   │   ├── ses-1
+│   │   └── ses-2
+│   ├── sub-RC4226
+│   │   ├── ses-1
+│   │   └── ses-2
+│   ├── sub-RC4227
+│   │   ├── ses-1
+│   │   └── ses-2
+│   └── task-ANT_bold.json
+├── README
+├── sub-RC4101
+│   ├── ses-1
+│   │   ├── anat
+│   │   ├── dwi
+│   │   └── func
+│   └── ses-2
+│       ├── anat
+│       ├── dwi
+│       └── func
+├── sub-RC4103
+│   ├── ses-1
+│   │   ├── anat
+│   │   ├── dwi
+│   │   └── func
+│   └── ses-2
+│       ├── anat
+│       └── func
+├── sub-RC4106
+│   ├── ses-1
+│   │   ├── anat
+│   │   └── func
+│   └── ses-2
+│       ├── anat
+│       └── func
+├── sub-RC4107
+│   ├── ses-1
+│   │   ├── anat
+│   │   ├── dwi
+│   │   └── func
+│   └── ses-2
+│       ├── anat
+│       ├── dwi
+│       └── func
+├── sub-RC4109
+│   ├── ses-1
+│   │   ├── anat
+│   │   ├── dwi
+│   │   └── func
+│   └── ses-2
+│       ├── anat
+│       ├── dwi
+│       └── func
+├── sub-RC4110
+│   ├── ses-1
+│   │   ├── anat
+│   │   ├── dwi
+│   │   └── func
+│   └── ses-2
+│       ├── anat
+│       ├── dwi
+│       └── func
+├── sub-RC4111
+│   ├── ses-1
+│   │   ├── anat
+│   │   ├── dwi
+│   │   └── func
+│   └── ses-2
+│       ├── anat
+│       ├── dwi
+│       └── func
+├── sub-RC4112
+│   ├── ses-1
+│   │   ├── anat
+│   │   ├── dwi
+│   │   └── func
+│   └── ses-2
+│       ├── anat
+│       ├── dwi
+│       └── func
+├── sub-RC4113
+│   ├── ses-1
+│   │   ├── anat
+│   │   ├── dwi
+│   │   └── func
+│   └── ses-2
+│       ├── anat
+│       ├── dwi
+│       └── func
+├── sub-RC4114
+│   ├── ses-1
+│   │   └── func
+│   └── ses-2
+│       └── func
+├── sub-RC4115
+│   ├── ses-1
+│   │   └── func
+│   └── ses-2
+│       └── func
+├── sub-RC4116
+│   ├── ses-1
+│   │   └── func
+│   └── ses-2
+│       └── func
+├── sub-RC4117
+│   ├── ses-1
+│   │   └── func
+│   └── ses-2
+│       └── func
+├── sub-RC4118
+│   ├── ses-1
+│   │   └── func
+│   └── ses-2
+│       └── func
+├── sub-RC4119
+│   ├── ses-1
+│   │   └── func
+│   └── ses-2
+│       └── func
+├── sub-RC4120
+│   ├── ses-1
+│   │   └── func
+│   └── ses-2
+│       └── func
+├── sub-RC4121
+│   ├── ses-1
+│   │   └── func
+│   └── ses-2
+│       └── func
+├── sub-RC4122
+│   ├── ses-1
+│   │   └── func
+│   └── ses-2
+│       └── func
+├── sub-RC4123
+│   ├── ses-1
+│   │   └── func
+│   └── ses-2
+│       └── func
+├── sub-RC4125
+│   ├── ses-1
+│   │   └── func
+│   └── ses-2
+│       └── func
+├── sub-RC4126
+│   ├── ses-1
+│   │   └── func
+│   └── ses-2
+│       └── func
+├── sub-RC4128
+│   ├── ses-1
+│   │   └── func
+│   └── ses-2
+│       └── func
+├── sub-RC4129
+│   ├── ses-1
+│   │   └── func
+│   └── ses-2
+│       └── func
+├── sub-RC4130
+│   ├── ses-1
+│   │   └── func
+│   └── ses-2
+│       └── func
+├── sub-RC4131
+│   ├── ses-1
+│   │   └── func
+│   └── ses-2
+│       └── func
+├── sub-RC4201
+│   ├── ses-1
+│   │   └── func
+│   └── ses-2
+│       └── func
+├── sub-RC4204
+│   ├── ses-1
+│   │   └── func
+│   └── ses-2
+│       └── func
+├── sub-RC4205
+│   ├── ses-1
+│   │   └── func
+│   └── ses-2
+│       └── func
+├── sub-RC4206
+│   ├── ses-1
+│   │   └── func
+│   └── ses-2
+│       └── func
+├── sub-RC4207
+│   ├── ses-1
+│   │   └── func
+│   └── ses-2
+│       └── func
+├── sub-RC4208
+│   ├── ses-1
+│   │   └── func
+│   └── ses-2
+│       └── func
+├── sub-RC4210
+│   ├── ses-1
+│   │   └── func
+│   └── ses-2
+│       └── func
+├── sub-RC4211
+│   ├── ses-1
+│   │   └── func
+│   └── ses-2
+│       └── func
+├── sub-RC4212
+│   ├── ses-1
+│   │   └── func
+│   └── ses-2
+│       └── func
+├── sub-RC4213
+│   ├── ses-1
+│   │   └── func
+│   └── ses-2
+│       └── func
+├── sub-RC4214
+│   ├── ses-1
+│   │   └── func
+│   └── ses-2
+│       └── func
+├── sub-RC4215
+│   ├── ses-1
+│   │   └── func
+│   └── ses-2
+│       └── func
+├── sub-RC4217
+│   ├── ses-1
+│   │   └── func
+│   └── ses-2
+│       └── func
+├── sub-RC4218
+│   ├── ses-1
+│   │   └── func
+│   └── ses-2
+│       └── func
+├── sub-RC4219
+│   ├── ses-1
+│   │   └── func
+│   └── ses-2
+│       └── func
+├── sub-RC4220
+│   ├── ses-1
+│   │   └── func
+│   └── ses-2
+│       └── func
+├── sub-RC4221
+│   ├── ses-1
+│   │   └── func
+│   └── ses-2
+│       └── func
+├── sub-RC4224
+│   ├── ses-1
+│   │   └── func
+│   └── ses-2
+│       └── func
+├── sub-RC4225
+│   ├── ses-1
+│   │   └── func
+│   └── ses-2
+│       └── func
+├── sub-RC4226
+│   ├── ses-1
+│   │   └── func
+│   └── ses-2
+│       └── func
+├── sub-RC4227
+│   ├── ses-1
+│   │   └── func
+│   └── ses-2
+│       └── func
+├── task-ANT_bold.json
+└── task-rest_bold.json
+
+403 directories, 10 files
